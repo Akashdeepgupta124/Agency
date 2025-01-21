@@ -4,11 +4,22 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    { text: 'Home', href: '/' },
-    { text: 'About', href: '/about' },
-    { text: 'Services', href: '/services' },
-    { text: 'Contact', href: '/contact' }
+    { text: 'Home', id: 'home' },
+    { text: 'About', id: 'about' },
+    { text: 'Services', id: 'services' },
+    { text: 'Contact', id: 'contact' }
   ];
+
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+      setIsOpen(false); // Close mobile menu after clicking
+    }
+  };
 
   return (
     <nav className="bg-white shadow sticky top-0 z-50">
@@ -20,13 +31,13 @@ const NavBar = () => {
 
           <div className="hidden md:flex items-center space-x-8">
             {links.map(link => (
-              <a
+              <button
                 key={link.text}
-                href={link.href}
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                onClick={() => scrollToSection(link.id)}
+                className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
               >
                 {link.text}
-              </a>
+              </button>
             ))}
           </div>
 
@@ -47,13 +58,13 @@ const NavBar = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {links.map(link => (
-                <a
+                <button
                   key={link.text}
-                  href={link.href}
-                  className="block text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-base font-medium"
+                  onClick={() => scrollToSection(link.id)}
+                  className="block w-full text-left text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-base font-medium cursor-pointer"
                 >
                   {link.text}
-                </a>
+                </button>
               ))}
             </div>
           </div>

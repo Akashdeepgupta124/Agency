@@ -18,11 +18,14 @@ function Givesimilar() {
           description={similar.description}
         />
       ))}
-      <div className="mt-20 mb-20 flex items-center justify-center">
-    <h1 className="text-[13.8rem] font-normal tracking-tight leading-none">
-      TALK TO US!
-    </h1>
+   <div className="mt-20 mb-20 flex items-center justify-center">
+  <h1 className="text-[6rem] sm:text-[10rem] md:text-[13.8rem] font-normal tracking-tight leading-none sm:text-left md:text-left lg:text-center">
+    <span className="block sm:inline">{` TALK `}</span>
+    <span className="block sm:inline">{` TO `}</span>
+    <span className="block sm:inline">{` US `}</span>
+  </h1>
 </div>
+
     </>
   );
 }

@@ -17,14 +17,17 @@ function Services() {
       }, []);
     
     return (
-        <div className='Servicecontainer flex flex-col  px-[19rem] py-10 '>
-            
-            <p className='mb-5'>Our Services</p>
-        <div className='servicetext w-full'>
-            <h1 className='text text-4xl leading-[1.4] tracking-tight'>We provide captivating design, interactive animations, advanced usability, reliable code,
-                 and immaculate project coordination. Whether you need a campaign built from scratch or assistance at a specific phase, we’ve got you covered.</h1>
+        <div className="Servicecontainer flex flex-col px-6 sm:px-12 lg:px-[19rem] py-10">
+        <p className="text-xl mb-5">Our Services</p>
+        
+        <div className="servicetext w-full">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl leading-[1.4] tracking-tight">
+            We provide captivating design, interactive animations, advanced usability, reliable code,
+            and immaculate project coordination. Whether you need a campaign built from scratch or assistance at a specific phase, we’ve got you covered.
+          </h1>
         </div>
-        </div>
+      </div>
+      
     )
 }
 

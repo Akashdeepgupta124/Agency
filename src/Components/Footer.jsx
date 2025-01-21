@@ -1,12 +1,12 @@
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-12 px-4 mt-60">
+    <footer className="bg-black text-white py-12 px-4 mt-[25rem] md:mt-10 lg:mt-60">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold">Let's Create Something Amazing</h2>
             <p className="text-gray-400">Ready to start your project?</p>
-            <button className="bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-gray-200 transition-colors">
+            <button className="bg-custom-orange text-black px-6 py-3 rounded-full font-medium hover:bg-gray-200 transition-colors">
               Start Project
             </button>
           </div>
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>© 2025 Your Company</p>
+          <p>© 2025 B&W Studio</p>
         </div>
       </div>
     </footer>

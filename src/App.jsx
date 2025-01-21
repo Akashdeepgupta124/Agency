@@ -30,11 +30,17 @@ const locomotiveScroll = new LocomotiveScroll();
      
      
       <Navbar/>
-
+      <section id="home" className="min-h-screen pt-16">
       <Herosection/>
-     
+      </section>
+      
+      <section id="about" className="min-h-screen pt-16">
       <Whatwedo/>
+      </section>
+      <section id="services" className="min-h-screen pt-16">
       <Services/>
+      </section>
+      
       <Faqs/>
       <Sections/>
       <Givesimilar/>
