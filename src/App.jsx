@@ -16,6 +16,8 @@ import Navbar from './Components/Navbar';
 
 import Footer from './Components/Footer';
 
+import DragonSlider from './Components/SLider';
+
 
 function App() {
 
@@ -40,7 +42,7 @@ const locomotiveScroll = new LocomotiveScroll();
       <section id="services" className="min-h-screen pt-16">
       <Services/>
       </section>
-      
+      <DragonSlider/>
       <Faqs/>
       <Sections/>
       <Givesimilar/>
