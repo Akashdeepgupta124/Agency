@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import AudioToggle from './NavbarSoundtoggle';
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -37,8 +37,11 @@ const NavBar = () => {
                 className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium cursor-pointer"
               >
                 {link.text}
+                
               </button>
+             
             ))}
+             <AudioToggle />
           </div>
 
           <div className="md:hidden flex items-center">
@@ -51,6 +54,7 @@ const NavBar = () => {
               <span className="block w-6 h-0.5 bg-gray-600 mb-1"></span>
               <span className="block w-6 h-0.5 bg-gray-600"></span>
             </button>
+          
           </div>
         </div>
 
@@ -66,6 +70,7 @@ const NavBar = () => {
                   {link.text}
                 </button>
               ))}
+             
             </div>
           </div>
         )}

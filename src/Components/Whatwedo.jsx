@@ -11,10 +11,10 @@ function Whatwedo() {
               </div>
               <div className="flex flex-col w-full sm:w-[50%] md:w-[30%] lg:w-[23%] px-4 sm:px-6">
                  <h2 className="subtitle mb-6 sm:mb-8 md:mb-10 text-3xl leading-[1.3] tracking-wide">
-                      We aim to revolutionize digital production in the advertising space, bringing your ideas to life.
+                 We craft seamless digital experiences that elevate brands in the online space.
                    </h2>
                  <p className="paragraph text-sm font-light mb-5">
-                   As a contemporary studio, we use cutting-edge design practices and the latest technologies to deliver seamless digital work.
+                 As a forward-thinking studio, we blend cutting-edge design with the latest web and eCommerce technologies to build high-performing, visually striking websites.
                   </p>
 
                  <p className="paragraph text-sm font-light">

@@ -7,7 +7,7 @@ import Herosection from './Components/Herosection';
 import LocomotiveScroll from 'locomotive-scroll';
 import Whatwedo from './Components/Whatwedo';
 import Services from './Components/Services';
-import Faqs from './Components/Faqs';
+
 import Sections from './Components/Sections';
 import Givesimilar from './Components/Givesimilar';
 import Giveback from './Components/Giveback';
@@ -17,6 +17,10 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 
 import DragonSlider from './Components/SLider';
+
+import Accordion from './Components/Accordians';
+import CursorDot from './Components/cursor';
+import PricingTable from './Components/Pricingtable';
 
 
 function App() {
@@ -29,7 +33,7 @@ const locomotiveScroll = new LocomotiveScroll();
   
       <>
       
-     
+     <CursorDot/>
      
       <Navbar/>
       <section id="home" className="min-h-screen pt-16">
@@ -43,10 +47,14 @@ const locomotiveScroll = new LocomotiveScroll();
       <Services/>
       </section>
       <DragonSlider/>
-      <Faqs/>
+      <div className="min-h-screen w-full flex items-center justify-center">
+      <Accordion />
+    </div>
+      {/* <Faqs/> */}
       <Sections/>
       <Givesimilar/>
       <Giveback/>
+      <PricingTable/>
       <Contact/>
       
       <Footer/>
