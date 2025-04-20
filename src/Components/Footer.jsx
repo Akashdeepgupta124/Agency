@@ -27,14 +27,14 @@ const Footer = () => {
               </a>
             </div>
             <div className="space-y-2 text-gray-400">
-              <p>contact@example.com</p>
-              <p>+1 (234) 567-890</p>
+              <p>akashdeepgupta124@gmail.com</p>
+              <p>+91 9511490316</p>
             </div>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>© 2025 B&W Studio</p>
+          <p>© 2025 B&W busniess</p>
         </div>
       </div>
     </footer>

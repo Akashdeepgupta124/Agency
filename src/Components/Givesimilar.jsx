@@ -5,7 +5,7 @@ function Givesimilar() {
     {
       title: "HOW WE GIVE BACK",
       description:
-        "At Thirtysix Studio, we recognize that our industry can perpetuate harm. We believe we have to try and reverse some of these imbalances. That’s why we’re launching SS36, our local social sustainability hub. Through SS36, we reinvest some of our revenue and expertise into the communities that shape the culture and trends our field so heavily relies on. Our main focus is on bridging gaps for those affected by systemic obstacles related to race, sexuality, wealth, and gender identity.",
+        "We give back by pouring passion into every project, uplifting brands with purpose, and empowering ideas that spark change. Our mission is to create meaningful work that inspires growth, connection, and authenticity—because giving back means building something greater than ourselves, every single day.",
     },
   ];
 

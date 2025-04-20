@@ -24,7 +24,7 @@ function Herosection({Rotater}) {
         </div>
        </div>
        <div className='relative'>
-  <div className="h-screen flex items-center justify-center">
+       <div className="h-screen flex items-center justify-center">
     <h1 className="text-[3rem] md:text-[7rem] lg:text-[12rem] font-normal tracking-tight leading-none">
       B&W Business
     </h1>

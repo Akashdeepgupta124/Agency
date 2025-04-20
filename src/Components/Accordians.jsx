@@ -9,16 +9,24 @@ const Accordion = () => {
 
   const accordionItems = [
     {
-      title: 'What is Material Tailwind?',
-      content: 'Material Tailwind is a framework that enhances Tailwind CSS with additional styles and components.'
+      title: 'What industries do you work with?',
+      content: "We collaborate with a wide range of businesses — from startups and D2C brands to established enterprises. Whether you're in fashion, skincare, food & beverages, or tech, our solutions are tailored to fit your brand's unique needs."
     },
     {
-      title: 'How to use Material Tailwind?',
-      content: 'You can use Material Tailwind by importing its components into your Tailwind CSS project.'
+      title: 'Do you offer complete Shopify store development?',
+      content: 'Yes, we specialize in end-to-end Shopify solutions — from frontend and app integration to store setup, product upload, and performance optimization.'
     },
     {
-      title: 'What can I do with Material Tailwind?',
-      content: 'Material Tailwind allows you to quickly build modern, responsive websites with a focus on design.'
+      title: 'Can you manage our social media marketing as well?',
+      content: 'Absolutely. We provide complete social media solutions including content strategy, content planning , posting , post designing, reels, , influencer tie-ups, and monthly performance reports — all aligned with your brand strategy.'
+    },
+    {
+      title: 'What’s included in your branding and packaging services?',
+      content: 'Our branding services include logo design, color palette, typography, and brand guidelines. For packaging, we offer everything from label and box design to print-ready files and digital mockups suitable for both online and offline use.'
+    },
+    {
+      title: 'Do you work on a project basis or offer long-term retainers?',
+      content: 'We offer flexible engagement models — you can hire us for individual projects or choose a monthly retainer for ongoing support across design, development, and marketing.'
     }
   ];
 
