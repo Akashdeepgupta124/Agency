@@ -143,6 +143,40 @@ const VerticalBrandBento = () => {
          link: "https://shop.leofast.in/"
       }
     },
+    {
+      name: 'OIVO',
+      image: '/oivoindia2.jpeg',
+      description: "website that is a gamer's paradise ",
+      color: '',
+     
+      singleProject: {
+        title: "",
+        description: "",
+        bgColor: "bg-white",
+        textColor: "text-gray-800",
+        height: "h-[300px] md:h-[400px] lg:h-[400px]", // Increased height
+        width: "w-full",
+        image: "/Oivo.webp",
+         link: "https://www.oivoindia.com/"
+      }
+    },
+    {
+      name: 'Vini Toys',
+      image: '/vinnitoys.jpeg',
+      description: 'Turn every click into a smile with  Vini Toys',
+      color: '',
+     
+      singleProject: {
+        title: "",
+        description: "",
+        bgColor: "bg-white",
+        textColor: "text-gray-800",
+        height: "h-[300px] md:h-[400px] lg:h-[400px]", // Increased height
+        width: "w-full",
+        image: "/vini.webp",
+         link: "https://vinitoys.com/"
+      }
+    },
     
   ];
 
@@ -174,10 +208,10 @@ const VerticalBrandBento = () => {
         <p className="text-base md:text-lg lg:text-xl opacity-90 mb-4 md:mb-6 max-w-2xl text-white">{item.description}</p>
         
         <div className="flex items-center mt-3">
-          <span className="text-sm md:text-base font-medium mr-3 opacity-80 text-black">Explore Project</span>
-          <div className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm">
+          <span className="text-sm md:text-base font-medium mr-3 opacity-80 text-black"></span>
+          <div className="w-5 h-5 md:w-12 md:h-12 rounded-full flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm">
             <a href={item.link} target="_blank">
-            <ArrowRight size={20} className="text-black group-hover:translate-x-1 transition-transform" />
+            <ArrowRight size={20}  className="text-black group-hover:translate-x-1 transition-transform" />
             </a>
           </div>
         </div>
@@ -336,7 +370,7 @@ const VerticalBrandBento = () => {
         >
           <div className="h-full flex flex-col p-6 pt-16">
             <div className="flex justify-between items-center mb-6">
-              <h2 className="text-xl font-bold text-white">Our Portfolio</h2>
+              <h2 className="text-xl font-bold text-white">Our namw</h2>
               <button
                 className="p-2 text-white"
                 onClick={() => setIsMobileMenuOpen(false)}
